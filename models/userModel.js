@@ -20,7 +20,7 @@ const userSchema = mongoose.Schema({
         default:false
     },
     verificationCode:{
-        type:Number,
+        type:String,
         select:false
     },
     verificationCodeValidation:{
@@ -28,7 +28,7 @@ const userSchema = mongoose.Schema({
         select:false
     },
     forgetPassword:{
-        type:Number,
+        type:String,
         select:false
     },
     forgetPasswordValidation:{
